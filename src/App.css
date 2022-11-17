@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+}
+
+.labellong{
+  width: 180px;
+}
+.checklabel{
+  width: auto;
+} 
+
+input[type=button], input[type=submit], input[type=reset],button {
+  background-color: #042A6D;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=button]:disabled, input[type=submit]:disabled, input[type=reset]:disabled,button:disabled {
+  background-color: #cccccc;
+  border: none;
+  color:#666666;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
